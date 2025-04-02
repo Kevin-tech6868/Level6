@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+div {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Count-display {
+  font-size: 50px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.Increment {
+  background-color: #28a745;
+  color: white;
+}
+
+.Increment:hover {
+  background-color: #218838;
+}
+
+.Decrement {
+  background-color: #dc3545;
+  color: white;
+}
+
+.Decrement:hover {
+  background-color: #c82333;
+}
+
+.Reset {
+  background-color: #6c757d;
+  color: white;
+}
+
+.Reset:hover {
+  background-color: #5a6268;
+}
